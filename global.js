@@ -50,7 +50,8 @@ myFriends.splice(2, 1)
 
 // 3.) console.log the array in reverse
 // Your code here
-console.log(myFriends.reverse())
+let copiedFriends = myFriends.slice()
+console.log(copiedFriends.reverse())
 
 // 4.) Change the first object's "firstName" value to Timothy
 // your code here
